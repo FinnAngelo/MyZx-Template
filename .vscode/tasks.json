@@ -6,8 +6,10 @@
         {
             "label": "build main",
             "type": "shell",
-            //"command": "${workspaceFolder}/tools/sjasmplus/sjasmplus.exe",
             "command": "sjasmplus",
+            "windows": {
+                    "command": "${workspaceFolder}/tools/sjasmplus/sjasmplus.exe"
+            },
             "args": [
                 "--outprefix=src/build/",
                 "--sld=src/build/main.sld",
@@ -27,8 +29,10 @@
         {
             "label": "build unit_tests",
             "type": "shell",
-            //"command": "${workspaceFolder}/tools/sjasmplus/sjasmplus.exe",
-             "command": "sjasmplus",
+            "command": "sjasmplus",
+            "windows": {
+                    "command": "${workspaceFolder}/tools/sjasmplus/sjasmplus.exe"
+            },
             "args": [
                 "--outprefix=src/build/",
                 "--sld=src/build/unit_tests.sld",
