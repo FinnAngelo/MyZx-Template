@@ -10,24 +10,33 @@ Let's make this
 
 ## Open the Dev Environment in GitHub Workspace - right now
 
+TODO: 
+
+1. Document the 'open this in GitHub Workspaces' better - inc screenshots
+2. Make a 'SjASMPlus Setup' task
+3. Find out why 'Run unit tests' doesnt automatically build
+
 ### Setup SjASMPlus to run in the workspace
 
-Open the bash terminal and run these step by step:
+Currently the workspace (i.e. linux docker) setup of the SjASMPlus compiler is a manual task.  
+If you pull this repo to a Windows desktop, it should just run because the Windows exe is already in the tools folder.
 
-```bash
-unzip tools/sjasmplus.1.18.3.zip -d tools
+1. Open the bash terminal and run these step by step:
+  ```bash
+  unzip tools/sjasmplus.1.18.3.zip -d tools
 
-cd tools/sjasmplus-1.18.3
-make clean
-make
-sudo make install
-```
+  cd tools/sjasmplus-1.18.3
+  make clean
+  make
+  sudo make install
+  ```
+2. Delete the `tools/sjasmplus-1.18.3` afterwards
 
-Delete the `tools/sjasmplus-1.18.3` afterwards
+### Run
 
-TODO:
-
-- Setup so this happens automatically on opening the workspace with a bash script
+- Build with `Ctrl-Shipt-B`
+- Debug with `Ctrl-Shift-D` or `F5`
+- Currently you need to build and _then_ run the unit tests
 
 ## Links
 
@@ -50,8 +59,3 @@ Awesome Z80 tutorial links
 - https://chuntey.wordpress.com/tag/tutorial/
 - https://sol.gfxile.net/z80/index.html
 - https://pobtastic.github.io/hobbit/
-
-## Rando Notes
-
-- `F5` works to run the debug
-- FIX-ME: Tests require 'Ctrl-Shift-B` to build the "build unit_tests" before the tests are ready; this sucks because I shouldnt need to even know this.
