@@ -66,7 +66,7 @@ Awesome Z80 tutorial links
 - [z00m](https://z00m.speccy.cz) for SjASMPlus
 - [The folks at Microsoft for VS Code](https://code.visualstudio.com/)
 - [The folks at GitHub for Github and GitHub Codespaces](https://github.com/features/codespaces)
-- Everyone else for making this possible
+- And everyone else who helped my make this work-in-progress possible
 
 If you find this repo helpful, go be nice to someone. Pay it forward 🙂
 
