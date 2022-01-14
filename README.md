@@ -10,11 +10,16 @@ Let's make this
 
 ## Open the Dev Environment in GitHub Codespaces - right now
 
-TODO: 
+TL:DR
 
-1. Document the 'open this in GitHub Codespaces' better - inc screenshots
-2. Make a 'SjASMPlus Setup' task
-3. Find out why 'Run unit tests' doesnt automatically build
+1. Make a repo based on this repo template
+2. Open the codespace
+3. [Setup the SjASMPlus to compile](#setup-sjasmplus-to-run-in-the-workspace)
+4. `Ctrl-Shift-D` to debug
+   - The ZSim emulator should open and show a little green square
+6. `Ctrl-Shift-B` to build
+7. Run the unit tests
+   - There should be the 2 unit tests for the square showing
 
 ### Setup SjASMPlus to run in the workspace
 
@@ -37,6 +42,14 @@ If you pull this repo to a Windows desktop, it should just run because the Windo
 - Build with `Ctrl-Shipt-B`
 - Debug with `Ctrl-Shift-D` or `F5`
 - Currently you need to build and _then_ run the unit tests
+
+## TODO: 
+
+Stuff I need to do to make this repo 'Just-Work(tm)'
+
+1. Document the 'open this in GitHub Codespaces' better - inc screenshots
+2. Make a 'SjASMPlus Setup' task
+3. Find out why 'Run unit tests' doesnt automatically build
 
 ## Links
 
