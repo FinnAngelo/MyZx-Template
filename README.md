@@ -1,6 +1,6 @@
-# MyZx
+# MyZx-Template
 
-Let's setup a 48K ZX Spectrum dev environment in GitHub Workspaces - with Dezog 🧮
+Let's setup a 48K ZX Spectrum dev environment in GitHub Codespaces - with DeZog 🧮
 
 ## Why bother?
 
@@ -8,17 +8,17 @@ Let's make this
 
 - Easy to win
 
-## Open the Dev Environment in GitHub Workspace - right now
+## Open the Dev Environment in GitHub Codespaces - right now
 
 TODO: 
 
-1. Document the 'open this in GitHub Workspaces' better - inc screenshots
+1. Document the 'open this in GitHub Codespaces' better - inc screenshots
 2. Make a 'SjASMPlus Setup' task
 3. Find out why 'Run unit tests' doesnt automatically build
 
 ### Setup SjASMPlus to run in the workspace
 
-Currently the workspace (i.e. linux docker) setup of the SjASMPlus compiler is a manual task.  
+Currently the codespace (i.e. linux docker) setup of the SjASMPlus compiler is a manual task.  
 If you pull this repo to a Windows desktop, it should just run because the Windows exe is already in the tools folder.
 
 1. Open the bash terminal and run these step by step:
@@ -59,3 +59,15 @@ Awesome Z80 tutorial links
 - https://chuntey.wordpress.com/tag/tutorial/
 - https://sol.gfxile.net/z80/index.html
 - https://pobtastic.github.io/hobbit/
+
+## Credits
+
+- [The Maziac developer](https://marketplace.visualstudio.com/publishers/maziac) for Dezog
+- [z00m](https://z00m.speccy.cz) for SjASMPlus
+- [The folks at Microsoft for VS Code](https://code.visualstudio.com/)
+- [The folks at GitHub for Github and GitHub Codespaces](https://github.com/features/codespaces)
+- Everyone else for making this possible
+
+If you find this repo helpful, go be nice to someone. Pay it forward 🙂
+
+_Cheers!_
