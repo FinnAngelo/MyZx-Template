@@ -12,9 +12,21 @@ Let's make this
 
 ### Setup SjASMPlus to run in the workspace
 
+Open the bash terminal and run these step by step:
+
+```bash
+unzip tools/sjasmplus.1.18.3.zip -d tools
+
+cd tools/sjasmplus-1.18.3
+make clean
+make
+sudo make install
+```
+
+Delete the `tools/sjasmplus-1.18.3` afterwards
+
 TODO:
 
-- Document the manual process, FFS.
 - Setup so this happens automatically on opening the workspace with a bash script
 
 ## Links
@@ -25,6 +37,7 @@ Maziac-Dezog
 - https://github.com/maziac/z80-sample-program
 - https://github.com/maziac/DeZog/blob/main/documentation/Usage.md
 - https://github.com/maziac/DeZog/blob/main/documentation/UnitTests.md
+- http://www.breakintoprogram.co.uk/computers/zx-spectrum/assembly-language/z80-development-toolchain
 
 SjASMPlus - make sure you get the right one!
 
