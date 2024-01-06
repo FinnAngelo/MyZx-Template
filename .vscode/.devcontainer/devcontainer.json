@@ -1,0 +1,6 @@
+{
+    "name": "MyZX",
+    "build":{
+        "dockerfile": "Dockerfile"
+    }
+}
